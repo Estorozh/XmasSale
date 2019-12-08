@@ -26,20 +26,21 @@ header {
   i {
     vertical-align: middle;
     display: inline-block;
+    cursor: pointer;
   }
-  .icon-vk {
+  .header_icon-vk {
     background-image: url(../image/sprite.png);
     background-position: 0px 0px;
     width: 41px;
     height: 41px;
   }
-  .icon-inst {
+  .header_icon-inst {
     background-image: url(../image/sprite.png);
     background-position: -41px 0px;
     width: 41px;
     height: 41px;
   }
-  .icon-fb {
+  .header_icon-fb {
     background-image: url(../image/sprite.png);
     background-position: 0px -41px;
     width: 41px;

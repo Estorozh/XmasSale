@@ -6,7 +6,6 @@ function changeBG() {
     document.body.style.backgroundImage = "url('image/back_book.png')";
     changing = false;
   } else {
-    console.log(document.body.style.backgroundImage)
     document.body.style.backgroundImage = "url('image/back_merryXmas.png')";
     changing = true;
   }

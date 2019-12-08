@@ -1,27 +1,209 @@
 .groups {
-    margin-top: 75px;
+    margin-top: 60px;
 }
 .group {
     background-color: #e9ebf1;
     padding-left: 0;
     padding-top: 25px;
+    margin-bottom: 65px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: 'Akrobat-Regular';
+    width: 450px;
 }
-.box {
+.group:before {
+    content: '';
+    position: absolute;
+    width: 124px;
+    height: 40px;
+    border: 4px solid #6e1e02;
+    background-color: #6e1e02;
+    top: 23px;
+    right: -13px;
+    transform: rotate(41deg);
+    z-index: -1;
+}
+.group_percent {
+    position: absolute;
+    top: -13px;
+    right: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    background-color: #bf2426;
+    padding: 20px 8px 25px 25px;
+    z-index: 2;
+    border-bottom-left-radius: 90%;
+}
+.group_box {
     margin-bottom: 20px;
 }
-.price {
+.group_right {
+    padding-left: 35px;
+}
+.group_price {
     padding-left: 25px;
     line-height: 40px;
     font-family: 'Arial';
     background-color: #fff;
 }
-.price_old {
+.group_price-old {
     font-size: 30px;
     color: #585858;
     text-decoration: line-through;
 }
-.price_new {
+.group_price-new {
     font-size: 38px;
     color: #bc4a24;
+}
+.group_btn {
+    margin-top: 11px;
+    border-radius: 0;
+    height: 45px;
+}
+.btn-success {
+    font-size: 25px;
+}
+.btn-about {
+    border: 2px solid #e96c41;
+    background-color: #fff;
+    color: #b83b11;
+    font-size: 22px;
+}
+.btn-about:hover {
+    color: #fff;
+    background-color: #e96c41;
+}
+.importantInfo {
+    font-size: 16px;
+    font-family: 'Corbel';
+    position: absolute;
+    bottom: -30px;
+    right: 15px;
+    color: #ab310c;
+    border-bottom: 1px dashed #bf2426;
+    cursor: pointer;
+}
+.importantInfo_describe {
+    position: absolute;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    font-size: 20px;
+    color: #004734;
+    padding: 0 30px 40px 30px;
+}
+.importantInfo_describe:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 10px;
+    border: 10px solid rgba(255, 255, 255, 0.95);
+    transform: rotate(45deg);
+    top:-10px;
+    right: 85px;
+}
+.importantInfo_close {
+    color: #bf2426;
+    position: absolute;
+    right: 5px;
+    top: -7px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.importantInfo_describe_text {
+    display: block;
+    padding-top: 30px;
+    line-height: 24px;
+    letter-spacing: .3px;
+}
+.group_secret {
+    display: block; 
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 26px;
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 39px;
+}
+.group_description {
+    display: block;
+    padding-left: 30px;
+    padding-right: 19px;
+    color: #004734;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.group_ref {
+    height: 81px;
+    width: 96%;
+    margin-left: 17px;
+    margin-bottom: 7px;
+    background-color: #fff;
+}
+.group_ref_text {
+    display: block;
+    color: #aeaeae;
+    font-size: 17px;
+    padding-top: 5px;
+}
+.group_ref_icons {
+    display: block;
+    margin-top: 11px;
+    margin-left: 25px;
+}
+.group_ref_icon {
+    cursor: pointer;
+    margin-right: 9px;
+    background-image: url(../image/groups/sprite.png);
+}
+.group_ref_icon-vk {
+    background-position: 0px 0px;
+    width: 27px;
+    height: 27px;
+}
+.group_ref_icon-inst {
+    background-position: 0px -54px;
+    width: 26px;
+    height: 27px;
+}
+.group_ref_icon-fb {
+    background-position: -26px -54px;
+    width: 26px;
+    height: 27px;
+}
+.group_ref_icon-ok {
+    background-position: -27px 0px;
+    width: 27px;
+    height: 27px;
+}
+.group_ref_icon-youtube {
+    background-position: 0px -27px;
+    width: 27px;
+    height: 27px;
+}
+.group_ref_icon-in {
+    background-position: -27px -27px;
+    width: 27px;
+    height: 27px;
+}
+.group_ref_icon-tw {
+    background-position: -54px 0px;
+    width: 27px;
+    height: 27px;
+}
+.group_ref_icon-sm {
+    background-position: -52px -54px;
+    width: 26px;
+    height: 27px;
+}
+.group_ref_icon-ya {
+    background-position: -81px 0px;
+    width: 26px;
+    height: 27px;
+}
+.group_ref_icon-google {
+    background-position: -54px -27px;
+    width: 27px;
+    height: 27px;
 }

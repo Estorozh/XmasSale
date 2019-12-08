@@ -1,5 +1,6 @@
 @import url('../fonts/arctika_script.css');
 @import url('../fonts/akrobat-regular.css');
+@import url('../fonts/corbel.css');
 @import url('header.css');
 @import url('banner.css');
 @import url('stock.css');
@@ -7,5 +8,5 @@
 
 body {
   background:  #fff url('../image/back_book.png');
-  height: 1000px;
+  height: 2000px;
 }
