@@ -10,4 +10,6 @@
 
 body {
   background:  #fff url('../image/back_book.png');
+  background-size: contain;
+  background-repeat: repeat-y;
 }

@@ -1,5 +1,25 @@
 .groups {
     margin-top: 60px;
+    margin-left:0;
+}
+@media screen and (max-width:991px )  {
+    .groups {
+        width: 100%;
+        text-align: center;
+    }
+    .group {
+        float: none;
+    }
+}
+@media (max-width:991px) and (min-width:700px) {
+    .groups {
+        padding-left: 20%;
+    }
+}
+@media (max-width: 700px) and (min-width:600px) {
+    .groups {
+        padding-left: 10%;
+    }
 }
 .group {
     background-color: #e9ebf1;

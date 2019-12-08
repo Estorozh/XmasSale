@@ -6,6 +6,11 @@
   height: 118px;
   cursor: pointer;
 }
+@media screen and (max-width: 993px) {
+  .stock {
+    background: transparent;
+  }
+}
 .stock:hover {
   filter: brightness(85%);
 }
@@ -17,6 +22,11 @@
   height: 90px;
   top: 65px;
   background: url('../image/stock/stock_arrow.png') no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .stock::before, .stock:after {
+    background: transparent;
+  }
 }
 .stock:before {
   transform: scale(-1,1);

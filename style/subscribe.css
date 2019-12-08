@@ -7,6 +7,11 @@
   border: 2px dotted #608f7f;
   padding: 25px;
 }
+@media screen and (min-width: 991px) {
+  .subscribe_box {
+    left: 0;
+  }
+}
 .subscribe_btn {
   height: 45px;
   border-radius: 0;
@@ -18,6 +23,18 @@
 }
 .subscribe_btn-mid {
   margin: 0 10px;
+}
+@media screen and (max-width:991px) {
+  .subscribe {
+    text-align: center;
+  }
+  .subscribe_btn {
+    width: 80%;
+    margin:10px 0;
+  }
+  .subscribe_btn-mid {
+    margin: 0;
+  }
 }
 .subscribe_btn-send {
   background-color: #de0d08;

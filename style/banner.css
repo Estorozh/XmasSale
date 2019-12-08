@@ -2,6 +2,9 @@ main {
     display: table;
     width: 100%;
   }
+/* section {
+  overflow: hidden;
+} */
   .marryXmas {
     font-family: 'Arctika_script';
     display: table;
