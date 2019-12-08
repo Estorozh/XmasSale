@@ -1,0 +1,78 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-Слой-16 {
+  background-image: url(sprite.png);
+  background-position: -38px 0px;
+  width: 20px;
+  height: 13px;
+}
+.icon-Слой-17 {
+  background-image: url(sprite.png);
+  background-position: -38px -13px;
+  width: 16px;
+  height: 16px;
+}
+.icon-Слой-18 {
+  background-image: url(sprite.png);
+  background-position: -58px 0px;
+  width: 10px;
+  height: 20px;
+}
+.icon-Слой-19 {
+  background-image: url(sprite.png);
+  background-position: 0px -32px;
+  width: 12px;
+  height: 20px;
+}
+.icon-Слой-20 {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 20px;
+  height: 14px;
+}
+.icon-Слой-21 {
+  background-image: url(sprite.png);
+  background-position: -20px -15px;
+  width: 15px;
+  height: 15px;
+}
+.icon-Слой-22 {
+  background-image: url(sprite.png);
+  background-position: 0px -14px;
+  width: 15px;
+  height: 18px;
+}
+.icon-Слой-23 {
+  background-image: url(sprite.png);
+  background-position: -12px -32px;
+  width: 17px;
+  height: 12px;
+}
+.icon-Слой-241 {
+  background-image: url(sprite.png);
+  background-position: -58px -20px;
+  width: 9px;
+  height: 18px;
+}
+.icon-Слой-251 {
+  background-image: url(sprite.png);
+  background-position: -20px 0px;
+  width: 18px;
+  height: 15px;
+}

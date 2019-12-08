@@ -1,0 +1,41 @@
+.stock {
+  position: relative;
+  margin-top: 70px;
+  background: url('../image/stock/stock_bg.png') no-repeat;
+  background-size: cover;
+  height: 118px;
+  cursor: pointer;
+}
+.stock:hover {
+  filter: brightness(85%);
+}
+.stock:before, .stock:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 55px;
+  height: 90px;
+  top: 65px;
+  background: url('../image/stock/stock_arrow.png') no-repeat;
+}
+.stock:before {
+  transform: scale(-1,1);
+  left: 30px;
+}
+.stock:after {
+  right: 30px;
+}
+.stock_text {
+  font-family: 'Akrobat-Regular';
+  font-size: 65px;
+  color: #004734;
+  z-index: 2;
+}
+.stock_text-red {
+  color: #de4814;
+}
+@media screen and (min-width:1200px) {
+  .stock_bg {
+    width: auto;
+  }
+}

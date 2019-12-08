@@ -1,0 +1,27 @@
+.groups {
+    margin-top: 75px;
+}
+.group {
+    background-color: #e9ebf1;
+    padding-left: 0;
+    padding-top: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.box {
+    margin-bottom: 20px;
+}
+.price {
+    padding-left: 25px;
+    line-height: 40px;
+    font-family: 'Arial';
+    background-color: #fff;
+}
+.price_old {
+    font-size: 30px;
+    color: #585858;
+    text-decoration: line-through;
+}
+.price_new {
+    font-size: 38px;
+    color: #bc4a24;
+}
