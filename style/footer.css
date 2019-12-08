@@ -1,0 +1,20 @@
+footer {
+  padding: 70px 0 50px;
+  background-color: #a4a4a5;
+  color: #fff;
+  font-family: 'Akrobat-Regular';
+  margin: 0 auto;
+}
+.footer-link {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-link:hover {
+  filter: opacity(50%)
+}
+.w-100 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}

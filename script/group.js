@@ -2,6 +2,9 @@ let importantInfo = document.getElementsByClassName('importantInfo');
 
 for (let i=0; i<importantInfo.length; i++) {
   importantInfo[i].addEventListener('click',showImportantInfo);
+  importantInfo[i].addEventListener('mousedown',(event)=> {
+    event.preventDefault();
+  });
 }
 function showImportantInfo(event) {
   let importantInfo_describe = event.target.parentElement.parentElement.nextElementSibling.lastElementChild;

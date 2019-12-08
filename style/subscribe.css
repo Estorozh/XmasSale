@@ -1,0 +1,40 @@
+.subscribe {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.subscribe_box {
+  background-color:#80c9b0;
+  border: 2px dotted #608f7f;
+  padding: 25px;
+}
+.subscribe_btn {
+  height: 45px;
+  border-radius: 0;
+  width: 32%;
+  text-align: center;
+}
+.subscribe_btn:focus {
+  border:2px solid #608f7f;
+}
+.subscribe_btn-mid {
+  margin: 0 10px;
+}
+.subscribe_btn-send {
+  background-color: #de0d08;
+  font-family: 'Akrobat-Regular';
+  font-size: 20px;
+  color: #fff;
+}
+.subscribe_btn-send:hover {
+  filter: drop-shadow(2px 3px 5px black);
+  color: #fff;
+}
+.subscribe_btn-send:focus {
+  color: #fff;
+}
+.doubleArrow {
+  margin: 30px 0;
+}
+.inverse {
+  transform: scale(-1,1);
+}

@@ -104,6 +104,10 @@ main {
     transform: rotate(-90deg);
     cursor: pointer;
   }
+  .now:hover {
+    text-decoration: none;
+    color: #fff;
+  }
   .arrow {
     position: absolute;
     top: 130px;

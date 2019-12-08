@@ -5,8 +5,9 @@
 @import url('banner.css');
 @import url('stock.css');
 @import url('groups.css');
+@import url('subscribe.css');
+@import url('footer.css');
 
 body {
   background:  #fff url('../image/back_book.png');
-  height: 2000px;
 }
