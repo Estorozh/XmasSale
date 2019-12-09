@@ -177,20 +177,31 @@
     margin-right: 9px;
     background-image: url(../image/groups/sprite.png);
 }
+.group_ref_icon:hover {
+    background-image: url(../image/groups/sprite_color.png);
+}
 .group_ref_icon-vk {
-    background-position: 0px 0px;
+    background-position: 0 0;
     width: 27px;
     height: 27px;
 }
 .group_ref_icon-inst {
-    background-position: 0px -54px;
+    background-position: 0 -54px;
     width: 26px;
     height: 27px;
 }
+.group_ref_icon-inst:hover {
+    width: 27px;
+}
+
 .group_ref_icon-fb {
     background-position: -26px -54px;
     width: 26px;
     height: 27px;
+}
+.group_ref_icon-fb:hover {
+    background-position: -27px -54px;
+    width: 27px;
 }
 .group_ref_icon-ok {
     background-position: -27px 0px;
@@ -217,9 +228,19 @@
     width: 26px;
     height: 27px;
 }
+.group_ref_icon-sm:hover {
+    background-position: -55px -54px;
+    width: 27px;
+    height: 27px;
+}
 .group_ref_icon-ya {
     background-position: -81px 0px;
     width: 26px;
+    height: 27px;
+}
+.group_ref_icon-ya:hover {
+    background-position: -81px 0px;
+    width: 27px;
     height: 27px;
 }
 .group_ref_icon-google {
